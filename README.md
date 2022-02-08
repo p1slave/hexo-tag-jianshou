@@ -7,7 +7,7 @@ Run the following command in the root directory of hexo:
 npm install hexo-tag-jianshou --save
 ```
 
-### Usage ###
+## Usage
 Wrap the hash Id with `{% jianshou %}` tag and put it somewhere in the text. 
 Note that the preview picture will not be shown if we embed it in the webpage and the preview picture is only available in the direct link of the asset.
 ```
@@ -15,5 +15,4 @@ Note that the preview picture will not be shown if we embed it in the webpage an
 ```
 
 ## License ##
-
 MIT
