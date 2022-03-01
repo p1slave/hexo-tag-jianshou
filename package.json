@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-jianshou",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A hexo tag for inserting jianshou public links",
   "main": "index.js",
   "scripts": {

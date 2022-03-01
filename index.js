@@ -20,16 +20,11 @@ function jianshouTag(args, content) {
 	const div = htmlTag('div', {
 		"class": "radish-content",
 		"data-hashid": item
-	});
-
-	const img = htmlTag('img', {
-		"class": "",
-		"src": "https://jgloinc.com/wp-content/uploads/2021/02/How-to-Make-an-Image-a-Clickable-Link.jpg"
-	})
+	}, '');
 
 	const script = htmlTag('script', {
 		"src": "https://jianshou.online/js/embed.js"
-	})
+	}, '');
 
     return div + script;
 };
