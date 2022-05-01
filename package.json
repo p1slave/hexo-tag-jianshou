@@ -1,6 +1,6 @@
 {
   "name": "hexo-tag-jianshou",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A hexo tag for inserting jianshou public links",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/p1slave/hexo-tag-jianshou/issues"
   },
-  "homepage": "https://github.com/p1slave/hexo-tag-jianshou#readme"
+  "homepage": "https://github.com/p1slave/hexo-tag-jianshou#readme",
+  "dependencies": {
+    "hexo-util": "^2.6.0"
+  }
 }
